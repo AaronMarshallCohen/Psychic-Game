@@ -1,0 +1,7 @@
+At the beginning of the game, set wins to 0, set losses to 0, set guesses left to 9, set guesses so far to an empty string.
+Computer chooses a random letter of the alphabet from a-z.
+Ask user to enter a letter and display the letter.
+Computer changes user's letter to lower case if the user enters an upper case letter.
+If the user's letter is equal to the computer's random letter, add 1 point to Wins and start the game over.
+ If the letters are not equal,decrease guesses left by 1, increase guesses so far by 1, and display the user's guessed letter.
+If "guesses left" equals 0, increase Losses by 1 and restart the game.
